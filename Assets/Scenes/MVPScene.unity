@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Toggle
+  m_Text: OnDebug
 --- !u!222 &99014556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1097,7 +1097,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputField: {fileID: 1813831549}
   button: {fileID: 521515609}
+  slider: {fileID: 338707066}
   debugText: {fileID: 989912842}
+  toggle: {fileID: 390182542}
 --- !u!1 &989912840
 GameObject:
   m_ObjectHideFlags: 0

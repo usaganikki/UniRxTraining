@@ -32,6 +32,29 @@ public class SampleModel
         }
     }
 
+    public FloatReactiveProperty rxSlider = new FloatReactiveProperty();
+    public float slider
+    {
+        get
+        {
+            return rxSlider.Value;
+        }
+        set
+        {
+            rxSlider.Value = value;
+        }
+    }
 
+    public BoolReactiveProperty rxToggle = new BoolReactiveProperty();
+    public bool toggle
+    {
+        get
+        {
+            return rxToggle.Value;
+        }set
+        {
+            rxToggle.Value = value;
+        }
+    }
 
 }
